@@ -1,0 +1,110 @@
+.mainContainer{
+	padding: 25px; 
+}
+
+
+.addProductColumn {
+	padding: 25px;
+    text-align: center;
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+
+.column { 
+	max-width: 25%; 
+	min-width: 20%; 
+	border-right: 1px solid #ddd; 
+	position: relative;
+}
+
+.column .removeButton {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+
+
+.column .title {
+	background: #eee;
+	padding: 5px;
+	min-height: 30px;
+}
+
+.column .values div{
+	padding: 5px;
+}
+
+.attributesColumn {
+	font-style: normal;
+
+}
+
+.titleBlock  {
+	min-height: 150px;
+}
+
+.titleBlock .title {
+	background: #fff;
+	font-size: 20px;
+}
+
+
+.titleBlock .subTitle {
+	font-size: 12px;
+	padding: 5px;
+}
+
+.attributesColumn .title{
+	font-weight: bold;
+}
+
+.mainContainer.displayonly .featureKey{
+	display: none;
+}
+
+.mainContainer.displayonly .featureKey.isDifferentTrue{
+	display: block;
+}
+
+.mainContainer .featureKey{
+	display: block;
+}
+
+
+
+.titleBlock .prodImage {
+	display: block;
+    width: 100px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.titleBlock .price {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.titleBlock .price .actualPrice {
+	width: 60%;
+	text-decoration: line-through;
+}
+
+.titleBlock .price .discount {
+	width: 40%;
+	color: green;
+}
+
+.titleBlock .finalPrice {
+	color: #00a8ff;
+	font-size: 18px;
+}
+
+
+
+
